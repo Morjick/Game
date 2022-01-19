@@ -1,0 +1,6 @@
+{
+  "env": {
+    "PORT": 80,
+    "MongoURI": "mongodb+srv://Morjick:1234zxcv@cluster0.6kqht.mongodb.net/Gambling?retryWrites=true&w=majority"
+  }
+}

@@ -1,0 +1,41 @@
+.page_inner {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px;
+}
+
+.numbers_add {
+  display: flex;
+}
+
+.settings_btn_item {
+  margin-left: 30px;
+}
+
+.settings_input {
+  width: 200px;
+}
+
+.number_list {
+  margin: 20px 0;  
+}
+
+.number_list_item {
+  width: 200px;
+  
+  padding: 15px;
+  border: 2px solid $lightColor;
+  border-radius: 10px;
+  margin: 15px 0;
+
+  text-align: center;
+}
+
+.settings_inner_bots {
+  p {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,24 @@
+// color
+$main: #2B3648;
+$secondary: #212936;
+$lightColor: #fff;
+$subLight: #BEBEBE;
+$contrast: #1976D2;
+$darken: #313C4E;
+$subment: #56657F;
+
+// font-weight
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+@import './reset';
+@import './main';
+@import './login';
+@import './vars';
+@import './sidebar';
+@import './message';
+@import './bots';
+@import './table';
+@import './settings';

@@ -1,0 +1,62 @@
+.login {
+  display: flex;
+  position: absolute;
+  min-height: 100vh;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.login_desc {
+  width: 500px;
+  height: 500px;
+
+  background: $secondary;
+  border-radius: 20px;
+  padding: 35px 20px;
+
+  @media(max-width: 520px) {
+    height: 450px;
+
+    margin: 20px;
+    font-size: 12px;
+  }
+}
+
+.forgot {
+  font-size: 16px;
+    font-weight: $medium;
+    margin: 20px 0;
+}
+
+.login_title {
+  text-align: center;
+}
+
+.login_value {
+  margin-top: 50px;
+}
+
+.login_item {
+  p {
+    font-size: 20px;
+    font-weight: $medium;
+  }
+}
+
+.login_item_input {
+  width: 100%;
+  
+  background: $main;
+  padding: 20px;
+  color: $subLight;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+}
