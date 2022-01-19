@@ -79,9 +79,6 @@ io.on('connection', async (socket) => {
     socket.emit('getMessages', messages)
   })
 
-  // const messages = await msg.find()
-  // await socket.emit('getMessages', messages)
-
   socket.on('sendMessage', async (msgs) => {
     const message = new msg({ ...msgs })
     await message.save()
